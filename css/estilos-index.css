@@ -1,0 +1,54 @@
+.imgPrincipal{
+    background-position: top;
+    background-size: 100% 210%;
+}
+body{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.0)), url(../images/Central2.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+header{
+    background-color: transparent;
+}
+.opcion{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px 20px;
+    border: 1px solid #ffffff;
+    transition: 0.6s ease;
+}
+.opcion:hover{
+    background-color: #ffffff;
+    color: #000000;
+}
+#menuPrincipal.active{
+    background-color: #ffffff;
+    color: #000000;
+}
+/*BARRA DE BUSQUEDA*/
+
+#barraBusqueda{
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 100%;
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+#barraBusqueda h1{
+    font-size: 70px;
+    margin-bottom: 150px;
+    font-family: 'Century Gothic' ,LeagueSpartan-Bold, sans-serif;
+    color: rgb(255, 255, 255);
+}
+#barraBusqueda input{
+    width: 80%;
+    height: 50px;
+    margin-bottom: 100px;
+    font-size: 45px;
+    font-family: Century Gothic, sans-serif;
+}
+
+.contenedor-links, footer{
+    background-color: transparent;
+}

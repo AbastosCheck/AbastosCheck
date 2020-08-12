@@ -1,0 +1,220 @@
+@font-face{
+    font-family:"CenturyGothic";
+    src:url("../fonts/CenturyGothic.ttf");
+}
+@font-face{
+    font-family:"LeagueSpartan-Bold";
+    src:url("../fonts/LeagueSpartan-Bold.otf");
+}
+
+*{
+    margin:0;
+    padding:0px;
+    box-sizing: border-box;/**/
+}
+
+html{
+    font-size: 16px;
+}
+
+body{
+    font-size: 0px;
+    font-family: CenturyGothic,sans-serif;
+    padding-top: 75px;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+    /*NAVBAR*/
+
+header{
+    background-color: #00812c;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    text-align: center;
+    min-width: 320px;
+}   
+    figure{
+        width: 20%;
+        padding:5px 0px;
+        display: inline-block;
+        min-width: 190px; 
+    }
+        #logotipo{
+            width: 65px;
+            display: inline-block;
+            vertical-align: middle;
+        }   
+            #nombre{
+                font-size: 1.5rem;
+                display: inline-block;
+                vertical-align: middle;
+                margin-left: 10px;
+                color: #ffffff;
+            }
+            #menu-ham{
+                display: none;
+            }
+            #abrir-ham, #cerrar-ham{
+                text-align: center;
+                min-width: 50px;
+                vertical-align: bottom;
+                height: 50px;
+                display: none;
+            }
+        
+            #abrir-ham img, #cerrar-ham img{
+                width: 30px;
+                vertical-align: middle;
+                border: 1px solid #ffffff;
+            }
+
+    #menuPrincipal{
+        width: 75%;
+        display: inline-block;
+        text-align:right;
+        padding-right: 5%;
+    
+    }
+    
+    .opcion{
+        font-size: 1rem;
+        color:rgba(255, 255, 255, 0.7) ;
+        text-decoration:none;   
+        padding: 15px 20px;
+        display: inline-block;
+    }
+        .opcion:hover{
+            color: #ffffff;
+    
+        }
+
+        /*FOOTER*/
+        footer{
+            width: 100%;
+            background-color: #00812c;
+            color: #fff;
+            text-align: left;
+        }
+        
+        .contenedor-todo-footer{
+            width: 100%;
+            max-width: 1600px;
+            margin: auto;
+            padding: 40px;
+        }
+        
+        .contenedor-body{
+            display: flex;
+            justify-content: space-between;
+            padding: 40px;
+        }
+        
+        .columna1{
+            max-width: 400px;
+        }
+        
+            .columna1 h1{
+            font-size: 22px;
+            }
+        
+            .columna1 a{
+            text-decoration: none;
+            color: #c7c7c7;
+            font-size: 1rem;
+    
+            }
+                .columna1 a:hover{
+                color: #fff;
+                }
+        .columna2{
+            max-width: 400px;
+        }
+            .columna2 h1{
+                font-size: 22px;
+            }
+            .columna2 .fila{
+                margin-top: 20px;
+                display: flex;
+                font-size: 1rem;
+            }
+                .fila img{
+                    width: 35px;
+                    height: 36px;
+                }
+                .fila label{
+                margin-top: 10px;
+                margin-left: 20px;
+                
+                }
+                .fila label a{
+                    color: #c7c7c7;
+                    text-decoration: none;
+                }
+                    .fila label a:hover{
+                        color: #fff;
+                    }
+        .columna3{
+            max-width: 400px;
+        }
+            .columna3 h1{
+                font-size: 22px;
+            }
+            .columna3 .fila{
+                margin-top: 20px;
+                display: flex;
+                font-size: 1rem;
+            }
+    
+            .columna3 img{
+                width: 36px;
+                height: 36px;
+            }
+    
+            .columna3 .fila label{
+                margin-top: 10px;
+                margin-left: 20px;
+                max-width: 150px;
+            }
+        
+            .contenedor-links{
+                width: 100%;
+                background: #004718;
+            }
+        
+        .footer{
+            max-width: 1200px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            padding: 40px;
+        }
+        
+        .copyright{
+            color: #c7c7c7;
+            font-size: 1rem;
+        }
+            .copyright a{
+                text-decoration: none;
+                color: #fff;
+                font-weight: bold;
+                font-size: 1rem;
+        }
+        .terminos a{
+            text-decoration: none;
+            color: #c7c7c7;
+            font-size: 1rem;
+            padding-right: 20px;
+        }
+        .terminos a:hover{
+            color: #fff;
+        }
+
+/*--------------------------PAGINAS EN CONTRUCCION----------------------------*/
+
+#construccion{
+    width: 100%;
+}
+
+
