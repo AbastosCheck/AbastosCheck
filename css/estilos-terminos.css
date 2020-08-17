@@ -1,4 +1,8 @@
 /*--------------------------AVISOS DE PRIVACIDAD  TERMINOS Y CONDICIONES----------------------------*/
+
+*{
+    font-size: 1rem;
+}
 #cajaAvisos{
     padding: 50px;
     text-align: left;
