@@ -1,0 +1,47 @@
+*{
+    font-size: 1.2rem;
+}
+.contenedor-todo{
+    width: 100%;
+    display: flex;
+}
+.contenedor-formulario{
+    width: 40%;
+    text-align: center;
+    margin: 75px;
+    margin-top: 100px;
+}
+    .contenedor-formulario input{
+        width: 50%;
+        height: 30px;
+        margin-bottom: 10px;
+    }
+    #icon{
+        background-image:url(../images/email-ico.jpeg); 
+        background-repeat: no-repeat; 
+        background-position: 2px 3px;
+        }
+    .boton-login{
+        margin: 15px;
+        width: 25%;
+        height: 30px;
+    }
+    .contenedor-formulario h1{
+        font-size: 2rem;
+        margin-bottom: 15px;
+        margin-bottom: 25px;
+    }
+    .img-login img{
+        width: 75px;
+        margin: 25px;
+    }
+
+.contenedor-imagen{
+    width: 60%;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.contenedor-imagen img{
+    width: 75%;
+}
