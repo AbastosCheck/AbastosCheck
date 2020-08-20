@@ -18,14 +18,18 @@ header{
     border: 1px solid #ffffff;
     transition: 0.6s ease;
 }
-.opcion:hover{
-    background-color: #ffffff;
-    color: #000000;
-}
-#menuPrincipal.active{
-    background-color: #ffffff;
-    color: #000000;
-}
+    .opcion:hover{
+        background-color: #ffffff;
+        color: #000000;
+    }
+    #menuPrincipal #active{
+        background-color: #ffffff;
+        color: #000000;
+    }
+    #menuPrincipal #active:hover{
+        background-color: #000000;
+        color: #ffffff;
+    }
 /*BARRA DE BUSQUEDA*/
 
 #barraBusqueda{
@@ -51,4 +55,28 @@ header{
 
 .contenedor-links, footer{
     background-color: transparent;
+}
+
+@media screen and (max-width: 768px){
+    .opcion{
+        text-decoration: none;
+        background-color: #ffffff;
+        color: #000000;
+        padding: 5px 20px;
+        border: 1px solid #000000;
+        transition: 0.6s ease;
+    }
+        .opcion:hover{
+            background-color: #000000;
+            color: #ffffff;
+        }
+        #menuPrincipal #active{
+            background-color: #000000;
+            color: #ffffff;
+            border: 1px solid #ffffff;
+        }
+        #menuPrincipal #active:hover{
+            background-color: #ffffff;
+            color: #000000;
+        }
 }
